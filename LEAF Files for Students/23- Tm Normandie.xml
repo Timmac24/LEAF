@@ -15,9 +15,9 @@
 		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
 	<text>
 		<body>
-			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/23-Normandie-Ort-1.jpg">z</pb>
+			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/23-Normandie-Ort-1.jpg"/>
 			<div>
-				<head>Normandie h </head>
+				<head/><head>NORMANDIE[N]omanide hath on the north ᶂyde thereof the narrow reas , that [ɼ]eperate England &amp; france &amp; [on all [ſ]ydes els is enuyrond with ɼeuerall countries &amp; prounces fo Edance]. From wheue this Duchie taketh ɳame   the name it [ſ]elf of Normandie doth declare to wiz North mandie, that is the dwelling or religion of  the men of the North, for from No[ʋʋ]ay otherwife North ʋʋay came Role (afterward called Ŗobert) with this [Ɲ]orthmen , and of charles the limple King of france hee and people obtayned heere there habitation , about the yeare of ʋʋe Lord.912. This Pro[ʋ]ince of Normandie is a mo[ſ]te plealant &amp; ferrilfolie [ſ]owel [ſ]urnifhed of all neceﬀaries as fildome anyplace better. hath great flore of ſleſb and ſilb. of corne , and ʋʋad much wyne it harth not there growing through Paris pa{ſſ}eth by roan the cheif citie of this prouince , All the corne feilds ad alfo the high wayes &amp; paſſages , are fet &amp; planted about with fiutrtyees efpitially aples &amp; beares , which yeideth great aboundance of gider &amp; perry , The riuer of Seine (as a [ſ]oreſaid) pa][ſi]ng by Roam falleth into the ſea at Haure de grace or [neʋʋbauen], where rhips arryuing do come vp the riuer to Ŗoan, which maketh the citie of great trade &amp; trafique of marchandife. </head>
 				<p/></div>
 		</body>
 	</text>
