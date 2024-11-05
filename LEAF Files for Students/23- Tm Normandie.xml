@@ -249,12 +249,91 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/Timmac24/LEAF/main/LEAF%20Files%20for%20Students/23-Normandie.xml?place_annotation_20241105151916637",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-11-05T20:19:16.637Z",
+	"dcterms:modified": "2024-11-05T20:19:16.637Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Timmac24",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Tim McCarthy"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Timmac24/LEAF/main/LEAF%20Files%20for%20Students/23-Normandie.xml?place_annotation_20241105151916637#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Timmac24/LEAF/main/LEAF%20Files%20for%20Students/23-Normandie.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.6.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Timmac24/LEAF/main/LEAF%20Files%20for%20Students/23-Normandie.xml?place_annotation_20241105151916637#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head[2]/placeName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://vocab.getty.edu/tgn/7009707",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.6.0"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<pb facs="https://raw.githubusercontent.com/kmabennett/LEAF/refs/heads/main/23-Normandie-Ort-1.jpg"/>
 			<div>
-				<head/><head>NORMANDIE[N]omanide hath on the north ᶂyde thereof the narrow reas , that [ɼ]eperate <placeName key="England" ref="http://www.wikidata.org/entity/Q21">England</placeName> &amp; <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France</placeName> &amp; [on all [ſ]ydes els is enuyrond with ɼeuerall countries &amp; prounces fo Edance]. From wheue this Duchie taketh ɳame   the name it [ſ]elf of Normandie doth declare to wiz North mandie, that is the dwelling or religion of  the men of the North, for from No[ʋʋ]ay otherwife North ʋʋay came Role (afterward called Ŗobert) with this [Ɲ]orthmen , and of charles the limple King of france hee and people obtayned heere there habitation , about the yeare of ʋʋe Lord.912. This Pro[ʋ]ince of Normandie is a mo[ſ]te plealant &amp; ferrilfolie [ſ]owel [ſ]urnifhed of all neceﬀaries as fildome anyplace better. hath great flore of ſleſb and ſilb. of corne , and ʋʋad much wyne it harth not there growing through <placeName key="Paris" ref="http://www.wikidata.org/entity/Q90">Paris</placeName> pa{ſſ}eth by roan the cheif citie of this prouince , All the corne feilds ad alfo the high wayes &amp; paſſages , are fet &amp; planted about with fiutrtyees efpitially aples &amp; beares , which yeideth great aboundance of gider &amp; perry , The riuer of Seine (as a [ſ]oreſaid) pa][ſi]ng by Roam falleth into the ſea at Haure de grace or [neʋʋbauen], where rhips arryuing do come vp the riuer to Ŗoan, which maketh the citie of great trade &amp; trafique of marchandife. </head>
+				<head/><head>NORMANDIE[N]omanide hath on the north ᶂyde thereof the narrow reas , that [ɼ]eperate <placeName key="England" ref="http://www.wikidata.org/entity/Q21">England</placeName> &amp; <placeName key="France" ref="http://www.wikidata.org/entity/Q142">France</placeName> &amp; [on all [ſ]ydes els is enuyrond with ɼeuerall countries &amp; prounces fo Edance]. From wheue this Duchie taketh ɳame   the name it [ſ]elf of Normandie doth declare to wiz North mandie, that is the dwelling or religion of  the men of the North, for from No[ʋʋ]ay otherwife North ʋʋay came Role (afterward called Ŗobert) with this [Ɲ]orthmen , and of charles the limple King of france hee and people obtayned heere there habitation , about the yeare of ʋʋe Lord.912. This Pro[ʋ]ince of Normandie is a mo[ſ]te plealant &amp; ferrilfolie [ſ]owel [ſ]urnifhed of all neceﬀaries as fildome anyplace better. hath great flore of ſleſb and ſilb. of corne , and ʋʋad much wyne it harth not there growing through <placeName key="Paris" ref="http://www.wikidata.org/entity/Q90">Paris</placeName> pa{ſſ}eth by roan the cheif citie of this prouince , All the corne feilds ad alfo the high wayes &amp; paſſages , are fet &amp; planted about with fiutrtyees efpitially aples &amp; beares , which yeideth great aboundance of gider &amp; perry , <placeName key="Seine" ref="http://vocab.getty.edu/tgn/7009707">The riuer of Seine</placeName> (as a [ſ]oreſaid) pa][ſi]ng by Roam falleth into the ſea at Haure de grace or [neʋʋbauen], where rhips arryuing do come vp the riuer to Ŗoan, which maketh the citie of great trade &amp; trafique of marchandife. </head>
 				<p/></div>
 		</body>
 	</text>
